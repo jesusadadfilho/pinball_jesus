@@ -1,0 +1,739 @@
+﻿Log file open, 06/14/17 09:52:08
+LogInit:Display: Running engine for game: pinball_jesus
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-55317597) SRandInit(-55317597).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105695
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.14-12.52.08:993][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-12.52.08:993][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.14-12.52.09:098][  0]LogInit: Computer: MRPOPO-HP
+[2017.06.14-12.52.09:098][  0]LogInit: User: jesus
+[2017.06.14-12.52.09:098][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.14-12.52.09:098][  0]LogInit: High frequency timer resolution =3.312656 MHz
+[2017.06.14-12.52.09:099][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.14-12.52.09:099][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.14-12.52.09:099][  0]LogMemory: Process Physical Memory: 272.17 MB used, 272.17 MB peak
+[2017.06.14-12.52.09:099][  0]LogMemory: Process Virtual Memory: 261.11 MB used, 261.11 MB peak
+[2017.06.14-12.52.09:099][  0]LogMemory: Physical Memory: 4354.91 MB used,  3748.62 MB free, 8103.53 MB total
+[2017.06.14-12.52.09:099][  0]LogMemory: Virtual Memory: 638.67 MB used,  3748.62 MB free, 134217728.00 MB total
+[2017.06.14-12.52.10:390][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.06.14-12.52.10:390][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.06.14-12.52.25:453][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.14-12.52.25:461][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.06.14-12.52.25:461][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.06.14-12.52.26:159][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.14-12.52.26:159][  0]LogD3D11RHI:       0/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.14-12.52.26:159][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.14-12.52.26:166][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.14-12.52.26:166][  0]LogD3D11RHI:     GPU DeviceId: 0x412 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.14-12.52.26:166][  0]LogWindows: EnumDisplayDevices:
+[2017.06.14-12.52.26:166][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.06.14-12.52.26:167][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.06.14-12.52.26:167][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.14-12.52.26:167][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.06.14-12.52.26:167][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.06.14-12.52.26:167][  0]LogD3D11RHI:   Driver Version: 20.19.15.4568 (internal:20.19.15.4568, unified:20.19.15.4568)
+[2017.06.14-12.52.26:167][  0]LogD3D11RHI:      Driver Date: 12-16-2016
+[2017.06.14-12.52.26:167][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.06.14-12.52.26:172][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.14-12.52.26:176][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.06.14-12.52.26:177][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Intermediate/Shaders/WorkingDirectory/5360/).
+[2017.06.14-12.52.26:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jesus/AppData/Local/Temp/UnrealShaderWorkingDir/83FCEED94B817209FF7D788C221FDC2A/'.
+[2017.06.14-12.52.26:177][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.14-12.52.42:686][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.14-12.52.42:744][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.14-12.52.42:800][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.14-12.52.42:858][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.14-12.52.42:948][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.14-12.52.43:000][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.14-12.52.43:059][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.14-12.52.43:115][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.14-12.52.43:161][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.14-12.52.43:231][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.14-12.52.43:296][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.14-12.52.43:349][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.14-12.52.43:430][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.14-12.52.43:492][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.14-12.52.43:588][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.14-12.52.43:695][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.14-12.52.43:695][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.14-12.52.43:748][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.14-12.52.43:891][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.14-12.52.43:925][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.14-12.52.43:992][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.14-12.52.44:043][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.14-12.52.44:115][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.14-12.52.44:202][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.14-12.52.44:202][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.14-12.52.45:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.14-12.52.45:652][  0]LogDerivedDataCache: Loaded boot cache 0.24s 90MB C:/Users/jesus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-12.52.45:653][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jesus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.14-12.52.45:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.14-12.52.45:653][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.14-12.52.45:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.14-12.52.45:653][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.14-12.52.45:724][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.14-12.52.45:736][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jesus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.14-12.52.45:747][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.14-12.52.45:748][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.14-12.52.45:801][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-12.52.45:801][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-12.52.54:526][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-12.52.55:084][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.14-12.52.55:931][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.14-12.52.56:072][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.14-12.52.56:246][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.14-12.52.56:246][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.14-12.52.56:246][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.14-12.52.58:368][  0]LogNetVersion: pinball_jesus , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2802783314)
+[2017.06.14-12.52.58:486][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.06.14-12.52.58:533][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.024974 seconds
+[2017.06.14-12.52.58:539][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.14-12.52.58:539][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.14-12.52.58:539][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.14-12.52.58:609][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.14-12.54.17:160][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.14-12.54.17:227][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.14-12.54.20:312][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.14-12.54.21:995][  0]SourceControl: Info Source control is disabled
+[2017.06.14-12.54.22:504][  0]SourceControl: Info Source control is disabled
+[2017.06.14-12.54.22:701][  0]SourceControl: Info Source control is disabled
+[2017.06.14-12.54.22:926][  0]SourceControl: Info Source control is disabled
+[2017.06.14-12.54.26:988][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.14-12.54.30:174][  0]LogEngine: Initializing Engine...
+[2017.06.14-12.54.30:175][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.14-12.54.30:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.14-12.54.30:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.14-12.54.30:922][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.14-12.54.31:184][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-12.54.31:215][  0]LogInit: FAudioDevice initialized.
+[2017.06.14-12.54.31:304][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/jesus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-12.54.31:321][  0]LogInit: Texture streaming: Enabled
+[2017.06.14-12.54.32:297][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.14-12.54.34:208][  0]LogInit: Transaction tracking system initialized
+[2017.06.14-12.54.35:474][  0]BlueprintLog: New page: Editor Load
+[2017.06.14-12.54.39:127][  0]LocalizationService: Info Localization service is disabled
+[2017.06.14-12.54.42:476][  0]LogConsoleResponse:Display: 
+[2017.06.14-12.54.43:087][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.14-12.54.43:087][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.14-12.54.43:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/' took 0.02s
+[2017.06.14-12.54.45:675][  0]SourceControl: Info Source control is disabled
+[2017.06.14-12.54.45:675][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.14-12.54.45:679][  0]LightingResults: New page: Lighting Build
+[2017.06.14-12.54.45:721][  0]MapCheck: New page: Map Check
+[2017.06.14-12.54.45:721][  0]LightingResults: New page: Lighting Build
+[2017.06.14-12.54.46:295][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.14-12.54.46:296][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.14-12.54.46:303][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.14-12.54.46:321][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.14-12.54.46:370][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.705ms to complete.
+[2017.06.14-12.54.46:370][  0]LogFileHelpers: Loading map 'Template_Default' took 0.694
+[2017.06.14-12.54.46:568][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-12.54.47:049][  0]LogCollectionManager: Loaded 0 collections in 0.001757 seconds
+[2017.06.14-12.54.47:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Collections/' took 0.01s
+[2017.06.14-12.54.47:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/Developers/jesus/Collections/' took 0.01s
+[2017.06.14-12.54.47:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/Collections/' took 0.01s
+[2017.06.14-12.54.47:136][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.14-12.54.47:149][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2329 classes and 491 folders.
+[2017.06.14-12.54.47:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.14-12.54.53:358][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.14-12.54.53:401][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.14-12.54.53:482][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.14-12.54.53:490][  0]LogSlate: Took 0.003531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.14-12.54.53:495][  0]LogSlate: Took 0.003119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.14-12.54.53:604][  0]LogSlate: Took 0.104019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.14-12.54.53:745][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.14-12.54.54:101][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.14-12.54.54:171][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.14-12.54.54:172][  0]LogLoad: (Engine Initialization) Total time: 179.74 seconds
+[2017.06.14-12.54.54:172][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.75 seconds
+[2017.06.14-12.54.54:172][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.14-12.54.54:172][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.14-12.54.54:181][  0]LogOcInput: OculusInput pre-init called
+[2017.06.14-12.54.54:181][  0]LogHMD: Starting GearVRController plugin
+[2017.06.14-12.54.54:197][  0]LogAssetRegistry: Asset discovery search completed in 115.7312 seconds
+[2017.06.14-12.54.54:199][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.14-12.54.54:199][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2017.06.14-12.54.54:199][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.06.14-12.54.54:752][  0]LogSlate: Took 0.062434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-12.55.50:084][242]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-12.55.50:489][242]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.14-12.55.51:054][242]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.14-12.55.51:155][242]LogSlate: Took 0.033359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.14-12.55.51:597][243]LogSlate: Took 0.293177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.14-12.55.57:634][537]BlueprintLog: New page: Compile flipper
+[2017.06.14-12.56.08:047][134]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-12.56.13:599][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/flipper" FILE="../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/flipper.uasset" SILENT=true
+[2017.06.14-12.56.13:687][134]LogSavePackage: Save=75.68ms
+[2017.06.14-12.56.13:687][134]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/flipper6D03AE6C4D1A6700EBBD2ABCA798DF96.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/flipper.uasset'
+[2017.06.14-12.56.13:757][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/flipper.uasset
+[2017.06.14-12.56.13:759][134]Cmd: MAP LOAD FILE="../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/tonovideo3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.14-12.56.13:759][134]LightingResults: New page: Lighting Build
+[2017.06.14-12.56.13:761][134]LoadErrors: New page: Loading map: tonovideo3.umap
+[2017.06.14-12.56.13:762][134]MapCheck: New page: Map Check
+[2017.06.14-12.56.13:762][134]LightingResults: New page: Lighting Build
+[2017.06.14-12.56.13:851][134]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.14-12.56.14:336][134]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.14-12.56.14:400][134]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.809ms to complete.
+[2017.06.14-12.56.14:400][134]LogFileHelpers: Loading map 'tonovideo3' took 0.643
+[2017.06.14-12.56.33:057][483]LogEditorViewport: Clicking on Actor (LMB): flipper_C (flipper)
+[2017.06.14-12.56.33:306][495]Cmd: DELETE
+[2017.06.14-12.56.33:306][495]Cmd: ACTOR DELETE
+[2017.06.14-12.56.33:307][495]LogEditorActor: Deleted Actor: flipper_C
+[2017.06.14-12.56.33:327][495]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.06.14-12.56.43:973][ 31]BlueprintLog: New page: Compile flipper
+[2017.06.14-12.56.54:322][763]Cmd: DELETE
+[2017.06.14-12.56.54:322][763]Cmd: ACTOR DELETE
+[2017.06.14-12.56.54:323][763]LogEditorActor: Deleted Actor: flipper_C
+[2017.06.14-12.56.54:344][763]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.06.14-12.57.02:308][ 17]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:41).
+[2017.06.14-12.57.05:416][ 56]LogSlate: Took 0.167289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-12.57.14:222][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/Flipper" FILE="../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/assets/Flipper.uasset" SILENT=true
+[2017.06.14-12.57.14:243][478]LogSavePackage: Save=12.90ms
+[2017.06.14-12.57.14:243][478]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/FlipperC7E6FB274E4D6857F84C85B852221B44.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/assets/Flipper.uasset'
+[2017.06.14-12.57.14:247][478]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/assets/Flipper.uasset
+[2017.06.14-12.57.33:878][865]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-12.57.34:040][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-12.57.34:040][865]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 6:57:34 AM)
+[2017.06.14-12.57.34:040][865]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-12.57.34:047][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006327s)
+[2017.06.14-12.57.34:047][865]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-12.57.34:047][865]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2017.06.14-12.57.34:047][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.007205s)
+[2017.06.14-12.57.34:064][865]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-12.57.34:078][865]LogInit: FAudioDevice initialized.
+[2017.06.14-12.57.34:123][865]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-12.57.34:126][865]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-09.57.34
+[2017.06.14-12.57.34:126][865]LogWorld: Bringing up level for play took: 0.001548
+[2017.06.14-12.57.34:181][865]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.14-12.57.34:182][865]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 1.066
+[2017.06.14-13.04.51:637][387]LogEditorViewport: Clicking on Actor (LMB): Bp_Bumper_C (Bp_Bumper4)
+[2017.06.14-13.04.52:991][407]Cmd: DELETE
+[2017.06.14-13.04.52:992][407]Cmd: ACTOR DELETE
+[2017.06.14-13.04.52:993][407]LogEditorActor: Deleted Actor: Bp_Bumper_C
+[2017.06.14-13.04.53:080][407]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2017.06.14-13.04.58:209][487]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.04.58:234][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.04.58:234][487]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:04:58 AM)
+[2017.06.14-13.04.58:234][487]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.04.58:242][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007719s)
+[2017.06.14-13.04.58:243][487]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.04.58:243][487]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.06.14-13.04.58:243][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.008782s)
+[2017.06.14-13.04.58:264][487]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.04.58:286][487]LogInit: FAudioDevice initialized.
+[2017.06.14-13.04.58:327][487]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.04.58:330][487]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.04.58
+[2017.06.14-13.04.58:330][487]LogWorld: Bringing up level for play took: 0.002504
+[2017.06.14-13.04.58:332][487]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 -0.787
+[2017.06.14-13.05.24:295][981]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.06.14-13.05.40:343][158]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2017.06.14-13.05.40:343][158]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.06.14-13.05.41:141][169]Cmd: TRANSACTION UNDO
+[2017.06.14-13.05.41:141][169]LogEditorTransaction: Undo Select Brush Surface
+[2017.06.14-13.06.29:671][596]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2017.06.14-13.07.08:611][893]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2017.06.14-13.07.59:018][526]Cmd: TRANSACTION UNDO
+[2017.06.14-13.07.59:018][526]LogEditorTransaction: Undo Select Brush Surface
+[2017.06.14-13.07.59:883][537]Cmd: TRANSACTION UNDO
+[2017.06.14-13.07.59:883][537]LogEditorTransaction: Undo Move Actors
+[2017.06.14-13.08.00:814][548]Cmd: TRANSACTION UNDO
+[2017.06.14-13.08.00:814][548]LogEditorTransaction: Undo Move Actors
+[2017.06.14-13.08.01:760][560]Cmd: TRANSACTION UNDO
+[2017.06.14-13.08.01:760][560]LogEditorTransaction: Undo Select Brush Surface
+[2017.06.14-13.08.02:486][570]Cmd: TRANSACTION UNDO
+[2017.06.14-13.08.02:486][570]LogEditorTransaction: Undo Move Actors
+[2017.06.14-13.08.03:162][577]Cmd: TRANSACTION UNDO
+[2017.06.14-13.08.03:162][577]LogEditorTransaction: Undo Modifier [Edit]
+[2017.06.14-13.08.54:193][185]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (bo)
+[2017.06.14-13.09.18:943][489]Cmd: ACTOR MIRROR X=-1
+[2017.06.14-13.09.30:212][634]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (bo)
+[2017.06.14-13.09.31:700][655]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.09.31:718][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.09.31:719][655]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:09:31 AM)
+[2017.06.14-13.09.31:719][655]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.09.31:726][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006748s)
+[2017.06.14-13.09.31:727][655]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.09.31:727][655]LogPlayLevel: PIE: World Init took: (0.001792s)
+[2017.06.14-13.09.31:728][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.009149s)
+[2017.06.14-13.09.31:771][655]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.09.31:785][655]LogInit: FAudioDevice initialized.
+[2017.06.14-13.09.31:824][655]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.09.31:828][655]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.09.31
+[2017.06.14-13.09.31:828][655]LogWorld: Bringing up level for play took: 0.003088
+[2017.06.14-13.09.31:830][655]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 0.71
+[2017.06.14-13.09.50:368][ 40]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.09.50:389][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.09.50:389][ 40]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:09:50 AM)
+[2017.06.14-13.09.50:390][ 40]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.09.50:396][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006261s)
+[2017.06.14-13.09.50:397][ 40]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.09.50:398][ 40]LogPlayLevel: PIE: World Init took: (0.001682s)
+[2017.06.14-13.09.50:398][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.008334s)
+[2017.06.14-13.09.50:417][ 40]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.09.50:437][ 40]LogInit: FAudioDevice initialized.
+[2017.06.14-13.09.50:472][ 40]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.09.50:475][ 40]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.09.50
+[2017.06.14-13.09.50:475][ 40]LogWorld: Bringing up level for play took: 0.001707
+[2017.06.14-13.09.50:476][ 40]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 -0.644
+[2017.06.14-13.09.57:312][257]LogEditorViewport: Clicking on Actor (LMB): flipper_C (flipper2)
+[2017.06.14-13.10.02:305][324]LogEditorViewport: Clicking on Actor (LMB): flipper_C (flipper)
+[2017.06.14-13.10.05:871][372]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.10.05:893][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.10.05:893][372]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:10:05 AM)
+[2017.06.14-13.10.05:894][372]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.10.05:900][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006656s)
+[2017.06.14-13.10.05:901][372]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.10.05:901][372]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2017.06.14-13.10.05:901][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.008011s)
+[2017.06.14-13.10.05:941][372]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.10.05:954][372]LogInit: FAudioDevice initialized.
+[2017.06.14-13.10.05:992][372]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.10.05:995][372]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.10.05
+[2017.06.14-13.10.05:996][372]LogWorld: Bringing up level for play took: 0.002678
+[2017.06.14-13.10.05:999][372]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 0.878
+[2017.06.14-13.10.11:936][557]LogEditorViewport: Clicking on Actor (LMB): flipper_C (flipper2)
+[2017.06.14-13.10.23:042][705]LogEditorViewport: Clicking on Actor (LMB): flipper_C (flipper)
+[2017.06.14-13.10.27:796][768]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.10.27:813][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.10.27:813][768]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:10:27 AM)
+[2017.06.14-13.10.27:813][768]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.10.27:820][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006488s)
+[2017.06.14-13.10.27:820][768]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.10.27:821][768]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2017.06.14-13.10.27:821][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.007853s)
+[2017.06.14-13.10.27:874][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.10.27:888][768]LogInit: FAudioDevice initialized.
+[2017.06.14-13.10.27:927][768]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.10.27:931][768]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.10.27
+[2017.06.14-13.10.27:931][768]LogWorld: Bringing up level for play took: 0.002685
+[2017.06.14-13.10.27:933][768]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 0.813
+[2017.06.14-13.11.03:359][203]LogSavePackage: Save=117.61ms
+[2017.06.14-13.11.03:359][203]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/tonovideo3_Auto120C0F2B3401B9DF8DD9BB395BFEBDEA1.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/tonovideo3_Auto1.umap'
+[2017.06.14-13.11.03:367][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/tonovideo3_Auto1.umap
+[2017.06.14-13.11.03:370][203]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tonovideo3' took 0.165
+[2017.06.14-13.11.03:370][203]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2017.06.14-13.11.03:376][203]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/flipper] ([1] browsable assets)...
+[2017.06.14-13.11.03:402][203]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/flipper.flipper]
+[2017.06.14-13.11.03:402][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/flipper]
+[2017.06.14-13.11.03:464][203]LogSavePackage: Save=51.26ms
+[2017.06.14-13.11.03:464][203]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/flipper_Auto18BC4DFDD4A5F521A2C4DD9BB9E2DF6F5.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/blueprints/flipper_Auto1.uasset'
+[2017.06.14-13.11.03:469][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/blueprints/flipper_Auto1.uasset
+[2017.06.14-13.11.03:469][203]LogFileHelpers: Auto-saving content packages took 0.098
+[2017.06.14-13.14.36:808][154]LogGeometryMode:Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2017.06.14-13.14.36:808][154]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.06.14-13.14.47:223][296]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2017.06.14-13.14.47:223][296]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.06.14-13.14.54:987][407]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush2)
+[2017.06.14-13.15.07:588][561]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.15.07:608][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.15.07:608][561]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:15:07 AM)
+[2017.06.14-13.15.07:608][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.15.07:617][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008822s)
+[2017.06.14-13.15.07:618][561]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.15.07:618][561]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.06.14-13.15.07:618][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.010157s)
+[2017.06.14-13.15.07:647][561]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.15.07:670][561]LogInit: FAudioDevice initialized.
+[2017.06.14-13.15.07:714][561]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.15.07:717][561]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.15.07
+[2017.06.14-13.15.07:718][561]LogWorld: Bringing up level for play took: 0.002820
+[2017.06.14-13.15.07:720][561]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 0.597
+[2017.06.14-13.15.14:351][777]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.15.14:373][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.15.14:373][777]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:15:14 AM)
+[2017.06.14-13.15.14:373][777]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.15.14:383][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009478s)
+[2017.06.14-13.15.14:383][777]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.15.14:384][777]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2017.06.14-13.15.14:384][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.010549s)
+[2017.06.14-13.15.14:405][777]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.15.14:433][777]LogInit: FAudioDevice initialized.
+[2017.06.14-13.15.14:475][777]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.15.14:478][777]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.15.14
+[2017.06.14-13.15.14:479][777]LogWorld: Bringing up level for play took: 0.002732
+[2017.06.14-13.15.14:482][777]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 -0.641
+[2017.06.14-13.15.21:687][991]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.14-13.15.21:712][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-13.15.21:712][991]PIE: New page: PIE session: tonovideo3 (Jun 14, 2017, 7:15:21 AM)
+[2017.06.14-13.15.21:712][991]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_tonovideo3
+[2017.06.14-13.15.21:721][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008701s)
+[2017.06.14-13.15.21:722][991]LogAIModule: Creating AISystem for world tonovideo3
+[2017.06.14-13.15.21:722][991]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2017.06.14-13.15.21:722][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tonovideo3.tonovideo3 to /Game/UEDPIE_0_tonovideo3.tonovideo3 (0.010231s)
+[2017.06.14-13.15.21:745][991]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-13.15.21:768][991]LogInit: FAudioDevice initialized.
+[2017.06.14-13.15.21:799][991]LogLoad: Game class is 'GameModeBase'
+[2017.06.14-13.15.21:802][991]LogWorld: Bringing World /Game/UEDPIE_0_tonovideo3.tonovideo3 up for play (max tick rate 0) at 2017.06.14-10.15.21
+[2017.06.14-13.15.21:802][991]LogWorld: Bringing up level for play took: 0.001774
+[2017.06.14-13.15.21:803][991]PIE: Info Play in editor start time for /Game/UEDPIE_0_tonovideo3 0.68
+[2017.06.14-13.15.51:310][535]LogEditorViewport: Clicking on Actor (context menu): flipper_C (flipper4)
+[2017.06.14-13.15.56:991][610]Cmd: ACTOR MIRROR X=-1
+[2017.06.14-13.17.27:511][689]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.14-13.18.45:173][792]LogSlate: Took 0.023744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.14-13.18.55:346][945]BlueprintLog: New page: Compile pinballplayercontroller
+[2017.06.14-13.21.10:816][884]BlueprintLog: New page: Compile pinballplayercontroller
+[2017.06.14-13.22.52:894][419]LogSavePackage: Save=110.42ms
+[2017.06.14-13.22.52:894][419]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/tonovideo3_Auto2FA0A91594D24687CE71DC58016B84F0E.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/tonovideo3_Auto2.umap'
+[2017.06.14-13.22.52:896][419]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/tonovideo3_Auto2.umap
+[2017.06.14-13.22.52:897][419]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tonovideo3' took 0.156
+[2017.06.14-13.22.52:897][419]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2017.06.14-13.22.52:899][419]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/pinballplayercontroller] ([1] browsable assets)...
+[2017.06.14-13.22.52:899][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/pinballplayercontroller]
+[2017.06.14-13.22.52:925][419]LogSavePackage: Save=24.01ms
+[2017.06.14-13.22.52:925][419]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/pinballplayercontroller_Auto269CC64A845ED1D42ED33A1B8C55C8ED4.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/blueprints/pinballplayercontroller_Auto2.uasset'
+[2017.06.14-13.22.52:926][419]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Autosaves/Game/blueprints/pinballplayercontroller_Auto2.uasset
+[2017.06.14-13.22.52:926][419]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.06.14-13.55.24:912][674]LogHttp:Warning: 0000027AB0F99C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.14-13.55.24:912][674]LogHttp:Warning: 0000027AB0F99C00: libcurl info message cache 0 (Connection 13 seems to be dead!)
+[2017.06.14-13.55.24:912][674]LogHttp:Warning: 0000027AB0F99C00: libcurl info message cache 1 (Closing connection 13)
+[2017.06.14-13.55.24:912][674]LogHttp:Warning: 0000027AB0F99C00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.14-13.55.24:912][674]LogHttp:Warning: 0000027AB0F99C00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.14-13.55.24:912][674]LogHttp:Warning: 0000027AB0F99C00: libcurl info message cache 4 (Closing connection 14)
+[2017.06.14-14.27.07:596][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/flipper" FILE="../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/flipper.uasset" SILENT=true
+[2017.06.14-14.27.07:661][618]LogSavePackage: Save=49.84ms
+[2017.06.14-14.27.07:661][618]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/flipperB88BC1024D32BF6608DD27956CF5CF4B.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/flipper.uasset'
+[2017.06.14-14.27.07:696][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/flipper.uasset
+[2017.06.14-14.27.07:722][618]LogSavePackage: Save=21.06ms
+[2017.06.14-14.27.07:722][618]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/pinballplayercontrollerCFA715AD409155E92878DA9CB9F0AD91.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/pinballplayercontroller.uasset'
+[2017.06.14-14.27.07:748][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/blueprints/pinballplayercontroller.uasset
+[2017.06.14-14.27.07:865][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tonovideo3" FILE="../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/tonovideo3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.14-14.27.08:009][618]LogSavePackage: Save=113.64ms
+[2017.06.14-14.27.08:009][618]LogSavePackage: Moving '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/tonovideo36E99F0384148C031925B1692B5BEBAF4.tmp' to '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/tonovideo3.umap'
+[2017.06.14-14.27.08:015][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/tonovideo3.umap
+[2017.06.14-14.27.08:094][618]LogFileHelpers: Saving map 'tonovideo3' took 0.327
+[2017.06.14-14.27.09:338][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.14-14.27.09:751][619]Cmd: QUIT_EDITOR
+[2017.06.14-14.27.10:045][619]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-14.27.10:093][619]LogExit: Preparing to exit.
+[2017.06.14-14.27.11:511][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/' was aborted.
+[2017.06.14-14.27.11:687][619]LogExit: Editor shut down
+[2017.06.14-14.27.11:710][619]LogExit: Transaction tracking system shut down
+[2017.06.14-14.27.14:299][619]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.14-14.27.14:300][619]LogExit: Object subsystem successfully closed.
+[2017.06.14-14.27.14:587][619]LogD3D11RHI: Shutdown
+[2017.06.14-14.27.14:587][619]LogD3D11RHI: CleanupD3DDevice
+[2017.06.14-14.27.14:914][619]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.14-14.27.16:139][619]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.06.14-14.27.16:139][619]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2017.06.14-14.27.16:139][619]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.14-14.27.16:139][619]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.14-14.27.16:149][619]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.14-14.27.16:157][619]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.14-14.27.16:157][619]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.14-14.27.16:157][619]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.14-14.27.16:173][619]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.14-14.27.16:179][619]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.14-14.27.16:179][619]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.14-14.27.16:179][619]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.14-14.27.16:179][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/Collections/' was aborted.
+[2017.06.14-14.27.16:179][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/Developers/jesus/Collections/' was aborted.
+[2017.06.14-14.27.16:179][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jesus/Documents/Unreal Projects/pinball_jesus/Saved/Collections/' was aborted.
+[2017.06.14-14.27.16:179][619]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.14-14.27.16:189][619]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.14-14.27.16:189][619]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.14-14.27.16:219][619]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.14-14.27.16:225][619]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.14-14.27.16:232][619]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.14-14.27.16:242][619]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.14-14.27.16:245][619]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.14-14.27.16:305][619]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.14-14.27.16:356][619]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.14-14.27.16:367][619]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.14-14.27.16:367][619]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.14-14.27.16:367][619]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.14-14.27.16:367][619]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.14-14.27.16:367][619]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.14-14.27.16:457][619]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.14-14.27.16:479][619]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.14-14.27.16:535][619]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.14-14.27.16:568][619]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.14-14.27.16:568][619]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.14-14.27.16:579][619]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.14-14.27.16:579][619]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.14-14.27.16:579][619]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.14-14.27.16:988][619]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.14-14.27.16:988][619]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.14-14.27.16:988][619]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.14-14.27.17:007][619]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.14-14.27.17:013][619]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.14-14.27.17:013][619]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.14-14.27.17:040][619]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.14-14.27.17:050][619]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.14-14.27.17:064][619]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.14-14.27.17:105][619]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.14-14.27.17:105][619]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.14-14.27.17:115][619]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.14-14.27.17:124][619]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.14-14.27.17:124][619]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.14-14.27.17:130][619]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.14-14.27.17:137][619]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.14-14.27.17:137][619]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.14-14.27.17:139][619]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.14-14.27.17:139][619]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.14-14.27.17:197][619]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.14-14.27.17:208][619]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.14-14.27.17:245][619]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.14-14.27.17:254][619]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.14-14.27.17:339][619]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.14-14.27.17:392][619]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.14-14.27.17:420][619]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.14-14.27.17:438][619]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.14-14.27.17:455][619]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.14-14.27.17:455][619]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.14-14.27.17:466][619]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.14-14.27.17:466][619]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.14-14.27.17:482][619]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.14-14.27.17:482][619]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.14-14.27.17:482][619]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.14-14.27.17:491][619]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.14-14.27.17:494][619]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.14-14.27.17:500][619]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.14-14.27.17:506][619]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.14-14.27.17:518][619]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.14-14.27.17:534][619]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.14-14.27.17:536][619]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.14-14.27.17:537][619]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.14-14.27.17:537][619]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.14-14.27.17:537][619]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.14-14.27.17:537][619]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.14-14.27.17:565][619]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.14-14.27.17:570][619]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.14-14.27.17:793][619]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.14-14.27.17:797][619]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.14-14.27.17:798][619]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.14-14.27.17:798][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.14-14.27.17:803][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.14-14.27.17:807][619]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.14-14.27.17:807][619]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.14-14.27.17:807][619]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.14-14.27.17:807][619]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.14-14.27.17:807][619]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.14-14.27.17:815][619]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.14-14.27.17:815][619]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.14-14.27.17:815][619]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.14-14.27.17:835][619]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.14-14.27.17:835][619]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.14-14.27.17:842][619]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.14-14.27.17:842][619]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.14-14.27.17:853][619]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.14-14.27.17:853][619]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.14-14.27.17:853][619]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.14-14.27.17:853][619]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.14-14.27.17:853][619]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.14-14.27.17:871][619]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.14-14.27.17:883][619]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.14-14.27.17:883][619]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.14-14.27.17:883][619]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.14-14.27.17:883][619]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.14-14.27.17:887][619]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.14-14.27.17:903][619]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.14-14.27.17:919][619]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.14-14.27.17:921][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.14-14.27.17:921][619]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.14-14.27.17:921][619]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.14-14.27.17:921][619]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.14-14.27.17:926][619]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.14-14.27.17:935][619]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.14-14.27.17:936][619]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.14-14.27.17:942][619]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.14-14.27.17:948][619]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.14-14.27.17:952][619]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.14-14.27.17:960][619]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.14-14.27.17:960][619]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.14-14.27.17:960][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.14-14.27.17:960][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.14-14.27.17:963][619]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.14-14.27.18:063][619]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.14-14.27.18:171][619]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.14-14.27.18:204][619]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.14-14.27.18:208][619]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.14-14.27.18:208][619]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.14-14.27.18:215][619]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.14-14.27.18:215][619]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.14-14.27.18:216][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.14-14.27.18:216][619]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.14-14.27.18:220][619]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.14-14.27.18:220][619]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.14-14.27.18:229][619]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.14-14.27.18:236][619]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.14-14.27.18:253][619]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.14-14.27.18:253][619]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.14-14.27.18:268][619]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.14-14.27.18:278][619]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.14-14.27.18:294][619]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.14-14.27.18:294][619]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.14-14.27.18:317][619]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.14-14.27.18:317][619]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.14-14.27.18:334][619]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.14-14.27.18:341][619]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.14-14.27.18:362][619]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.14-14.27.18:382][619]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.14-14.27.18:402][619]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.14-14.27.18:402][619]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.14-14.27.18:402][619]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.14-14.27.18:424][619]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.14-14.27.18:424][619]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.14-14.27.18:427][619]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.14-14.27.18:427][619]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.14-14.27.18:427][619]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.14-14.27.18:427][619]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.14-14.27.18:427][619]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.14-14.27.18:427][619]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.14-14.27.18:494][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.14-14.27.18:494][619]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jesus/Documents/Unreal Projects/pinball_jesus/Content/' was aborted.
+[2017.06.14-14.27.18:494][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.14-14.27.18:494][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.14-14.27.18:506][619]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.14-14.27.18:510][619]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.14-14.27.18:510][619]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.14-14.27.18:511][619]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.14-14.27.18:511][619]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.14-14.27.18:544][619]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.14-14.27.18:550][619]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.14-14.27.18:551][619]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.14-14.27.18:560][619]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.14-14.27.18:562][619]LogDerivedDataCache: Shutdown
+[2017.06.14-14.27.18:563][619]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.14-14.27.18:563][619]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.14-14.27.18:577][619]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.14-14.27.18:581][619]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.14-14.27.18:587][619]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.14-14.27.18:596][619]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.14-14.27.18:603][619]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.14-14.27.18:603][619]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.14-14.27.18:603][619]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.14-14.27.18:606][619]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.14-14.27.18:608][619]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.14-14.27.18:618][619]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.14-14.27.18:618][619]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.14-14.27.18:620][619]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.14-14.27.18:624][619]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.14-14.27.18:633][619]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.14-14.27.18:639][619]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.14-14.27.18:639][619]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.14-14.27.18:642][619]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.14-14.27.18:653][619]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.14-14.27.18:653][619]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.14-14.27.18:667][619]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.14-14.27.18:667][619]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.14-14.27.18:667][619]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.14-14.27.18:667][619]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.14-14.27.18:685][619]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.14-14.27.18:693][619]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.14-14.27.18:693][619]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.14-14.27.18:701][619]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B99015DDF-4777-7D91-0A43-8AB30D6E5F7B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=c5296d394379aeaaa2ec4e9ba4e5b1a5%7Cb1a04c446d3e4eaa8f76690b72523e45%7Cd6c4f858-c92c-4e48-8a34-90f5a0c3c691&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.14-14.27.18:726][619]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.14-14.27.18:767][619]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.14-14.27.18:806][619]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.14-14.27.18:849][619]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.14-14.27.18:849][619]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.14-14.27.18:951][619]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.14-14.27.18:958][619]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.14-14.27.18:958][619]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.14-14.27.18:958][619]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.14-14.27.19:010][619]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.14-14.27.19:047][619]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.14-14.27.19:047][619]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.14-14.27.19:080][619]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.14-14.27.19:080][619]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.14-14.27.19:080][619]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.14-14.27.19:080][619]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.14-14.27.19:090][619]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.14-14.27.19:122][619]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.14-14.27.19:130][619]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.14-14.27.19:132][619]LogExit: Exiting.
+[2017.06.14-14.27.19:145][619]Log file closed, 06/14/17 11:27:19
